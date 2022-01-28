@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap//dist/css/bootstrap.min.css">
+    <title>Student Search</title>
+</head>
+<body>
+    <form class="row g-3 mt-3 ms-2">
+        <div class="col-auto">
+          <label for="staticEmail2" class="visually-hidden">Email</label>
+          <input type="text"  class="form-control" id="staticEmail2" placeholder="Course">
+        </div>
+        <div class="col-auto">
+          <label for="inputPassword2" class="visually-hidden">Password</label>
+          <input type="text" class="form-control" id="inputPassword2" placeholder="Name">
+        </div>
+        <div class="col-auto">
+            <label for="inputPassword2" class="visually-hidden">Password</label>
+            <input type="text" class="form-control" id="inputPassword2" placeholder="Education">
+          </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Search</button>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-secondary mb-3">Reset</button>
+        </div>
+      </form>
+
+      <table class="table mt-5" id="stduentTable">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Student ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Course Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>STU0001</td>
+            <td>Thu</td>
+            <td>Java</td>
+            <td><a href="STU002.html" class="text-decoration-none">See more</a></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>STU0001</td>
+            <td>Thu</td>
+            <td>java</td>
+            <td><a href="STU002.html" class="text-decoration-none">See more</a></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>STU0001</td>
+            <td>Thu</td>
+            <td>Java</td>
+            <td><a href="STU002.html" class="text-decoration-none">See more</a></td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
